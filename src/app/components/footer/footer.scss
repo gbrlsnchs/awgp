@@ -1,0 +1,7 @@
+footer {
+    @include centralize();
+    background-color: $base02;
+    height: $footer-height;
+    line-height: $footer-height;
+    color: $base3;
+}

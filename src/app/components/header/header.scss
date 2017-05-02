@@ -1,0 +1,25 @@
+header {
+    @include float-center();
+    height: $header-height;
+    background-color: $base02;
+}
+
+.app-menu {
+    @include block-link();
+
+    height: $header-height;
+
+    li {
+        height: $header-height;
+        line-height: $header-height;
+    }
+
+    a {
+        padding: 0px 5px;
+    }
+
+    a:hover {
+        background-color: $base01;
+        color: $base3;
+    }
+}

@@ -1,0 +1,45 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "lib": [
+            "DOM",
+            "ES2015"
+        ],
+        "paths": {
+            "components/*": [
+                "app/components/*"
+            ],
+            "directives/*": [
+                "app/directives/*"
+            ],
+            "modules/*": [
+                "app/modules/*"
+            ],
+            "pipes/*": [
+                "app/pipes/*"
+            ],
+            "services/*": [
+                "app/services/*"
+            ]
+        },
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "module": "commonjs",
+        "noImplicitAny": false,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "outDir": "./build",
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "suppressImplicitAnyIndexErrors": true,
+        "target": "es5"
+    },
+    "exclude": [
+        "node_modules",
+        "src/main-aot.ts"
+    ],
+    "include": [
+        "src/**/*.ts"
+    ]
+}

@@ -1,0 +1,8 @@
+html, body {
+    @include box();
+}
+
+main[role="app"] {
+    @include box();
+    background-color: $orange;
+}

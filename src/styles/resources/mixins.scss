@@ -1,0 +1,25 @@
+@mixin block-link() {
+    a {
+        height: 100%;
+        display: block;
+    }
+}
+
+@mixin box($width: 100%, $height: $width) {
+    width: $width;
+    height: $height;
+}
+
+@mixin centralize() {
+    text-align: center;
+}
+
+@mixin float-center() {
+    margin: 0 auto;
+}
+
+@mixin middle-box() {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
